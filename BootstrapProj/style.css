@@ -1,0 +1,9 @@
+.container{
+	border:1px solid blue;
+}
+.Layer_9 {
+  background-image: url("img/Layer 9.png");
+  width:1343px;		/* width: 1604px;*/
+  height: 4057px;	/*height: 4103px;*/
+  z-index: 1;
+}

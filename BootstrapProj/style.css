@@ -1,9 +1,16 @@
-.container{
-	border:1px solid blue;
+body{
+	margin: 0;
 }
-.Layer_9 {
-  background-image: url("img/Layer 9.png");
-  width:1343px;		/* width: 1604px;*/
-  height: 4057px;	/*height: 4103px;*/
-  z-index: 1;
+.bs-cont{
+	background: gold;
+	height: 100vh;
+}
+.bs-col{
+	height: 100vh;
+}
+.bs-col:nth-child(odd){
+	background-color: bisque;
+}
+.bs-col:nth-child(even){
+	background-color: coral;
 }

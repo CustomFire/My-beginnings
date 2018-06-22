@@ -1,16 +1,63 @@
 body{
+	background-color: skyblue;
+}
+.container {
+	width: 1343px;
+	height: 4058px;
+	padding: 0;
+}
+.shlapa{
+	height: 192px;
+	background: radial-gradient(ellipse farthest-corner at 590px 96px, #e9e9e9, #fff);
+	padding-top: 25px;
+	padding-bottom: 33px;
+}
+.panel_1{
+	background-color: #fff;
+}
+img[alt="arrow"]{
+	top: 49px;
+	position: relative;
+	z-index: 1;
+}
+img[alt="men"]{
+	position: relative;
+	z-index: 1;
+}
+h1>strong{
+	font-size: 37px;
+}
+.cont_us{
+	width: 344px;
+	height: 544px;
+	border:1px solid #d7d7d7;
+	border-radius: 15px;
+	position: relative;
+	bottom: 75px;
+	background-color: #f7f7f7;
+	box-shadow: 0 0 20px 5px #eaeaea;
+}
+.cont_us>h2{
+	background-color: #c0392b;
+	color: white;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
 	margin: 0;
+	padding: 20px 0 20px 0;
 }
-.bs-cont{
-	background: gold;
-	height: 100vh;
+.btn-lg {
+	border-radius:30px;
+	border:3px solid #db2e1a;
 }
-.bs-col{
-	height: 100vh;
+.panel_3{
+	background-color: #1a232a;
+	height: 504px;
+	color:white;
 }
-.bs-col:nth-child(odd){
-	background-color: bisque;
+.panel_3_cont {
+	font-size: 14px;
 }
-.bs-col:nth-child(even){
-	background-color: coral;
+.panel_4{
+	background-color: #fff;
+	height: 791px;
 }

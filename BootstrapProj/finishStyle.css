@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body {
+/*  	background-color: lavender;  */
+ 	font-size: 18px;
+}
+.container {
+	width: 1343px;
+	height: 4058px;
+	background-color: #fff;
+}
+.header {
+	height: 192px;
+	background: radial-gradient(ellipse farthest-corner at 590px 96px, #e9e9e9, #fff);
+	padding-top: 25px;
+	padding-bottom: 33px;
+}
+img[alt="arrow"] {
+	top: 49px;
+	position: relative;
+	z-index: 1;
+}
+p {
+	margin: 0;
+}
+.panel_1 {
+	height: 521px;
+}
+.head-text {
+	margin-top: 74px;
+	margin-bottom: 22px;
+}
+.p1t {
+	padding:25px 0px 18px 26px;
+	background-color: #ebebeb;
+	border: 1px solid #e1e1e1;
+	border-radius: 8px;
+	font-size: 17px;
+}
+#call_us {
+	text-shadow: 0px 0px 0px black, 0 0 3px #000;
+}
+.redex {
+	color: #e1030d;
+}
+.btn-lg {
+	border-radius:30px;
+	border:3px solid #db2e1a;
+	margin-top: 22px;
+	color:#fff;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#f74a22), to(#db2e1a));
+}
+.btn-ls {
+	color: #fff;
+	border-radius: 20px;
+	margin-top: 28px;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#bfd302), to(#83a601));
+}
+.glyphicon {
+	color: #fcff00;
+}
+.men {
+	position: relative;
+	z-index: 1;
+	top: 31px;
+	right: 100px;
+}
+input::placeholder, textarea{
+	font-style: italic;
+}
+.cont_us {
+	width: 344px;
+	/* height: 544px; */
+	border:1px solid #d7d7d7;
+	border-radius: 15px;
+	position: relative;
+	bottom: 75px;
+	background-color: #f7f7f7;
+	box-shadow: 0 0 20px 5px #eaeaea;
+}
+.cont_us>h2 {
+	background-color: #c0392b;
+	color: white;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	margin: 0;
+	padding: 20px 0 20px 0;
+}
+#for_after {
+	margin-top: 25px;
+	font-style: italic;
+}
+.ta {
+	border-radius: 0;
+	resize: none;
+}
+.panel_2 .row{
+	background-image: url(img/panel_2/fon.png);
+	height: 587px;
+}
+#form_foo {
+	font-size: 12px;
+	font-style: italic;
+	color: #444444;
+	font-family: 'Lato', sans-serif;
+}
+img[alt="logo_2"] {
+	margin-top: 118px;
+}
+.panel_2T {
+	font-size: 40px;
+	margin-top: 108px;
+	right: 50px;
+	font-weight: bold;
+	margin-left: 40px;
+}
+.panel_3 {
+	background-color: #1a232a;
+	color:#fff;
+	padding-top: 90px;
+	padding-bottom: 65px;
+}
+.panel_3 h1 {
+    margin-top: 42px;
+    margin-bottom: 15px;
+}
+.panel_3_5_btn {
+	margin-top: 42px;
+}
+.panel_4 h1 {
+    margin-top: 100px;
+
+}

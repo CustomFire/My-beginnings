@@ -25,6 +25,7 @@ img[alt="men"]{
 	z-index: 1;
 }
 h1>strong{
+	font-family: 'Lato', sans-serif;
 	font-size: 37px;
 }
 .cont_us{
@@ -48,6 +49,10 @@ h1>strong{
 .btn-lg {
 	border-radius:30px;
 	border:3px solid #db2e1a;
+}
+.panel_2{
+	background-image: url(img/panel_2/fon.png);
+	height: 587px;
 }
 .panel_3{
 	background-color: #1a232a;

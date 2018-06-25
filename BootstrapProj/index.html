@@ -2,56 +2,92 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>myBootstrapSite</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<div class="container">
-		<div class="panel_1">
-			<div class="row shlapa">
-				<div class="col-lg-offset-1 col-lg-5">
-					<img src="img/panel_1/logo.png" alt="logo">
-				</div>
-				<div class="col-lg-6 col-xs-1 hidden-xs">
-					<img src="img/panel_1/arrow.png" alt="arrow">
-				</div>
+		<div class="row header">
+			<div class="col-xs-offset-1 col-xs-5">
+				<img src="img/panel_1/logo.png" alt="logo_1">
 			</div>
-			<div class="row ">
-				<div class="col-lg-offset-1 col-lg-4">
-					<h1><strong>SERVICING SYDNEY</strong></h1>
-					<p>We are very pleased with your plumbers Tom and<br> 
-					David and the repair they did to the sewer<br> 
-					pipe inside a kitchen cupboard. It was a <br>
-					very difficult job to do. We were<br> 
-					impressed with their promptness and<br> 
-					professionalism.”<br><br>
-					- Roslyn, Cammeray</p>
-					<button class="btn btn-default btn-lg"><span class="glyphicon glyphicon-chevron-right"></span><strong>CALL US - 1800 620 227</strong><span class="glyphicon glyphicon-chevron-left"></span></button>
-				</div>
-				<div class="col-lg-1">
-					<img src="img/panel_1/men.png" alt="men">
-				</div>
-				<div class="col-lg-6" align="center">
-					<form class="cont_us">
-						<h2 class="h2_cont">CONTACT US</h2>
-					</form>
-				</div>
+			<div class="col-xs-6 col-xs-1 hidden-xs">
+				<img src="img/panel_1/arrow.png" alt="arrow">
+			</div>
+		</div>
+		<div class="row panel_1">
+			<div class="col-xs-offset-1 col-xs-4">
+				<h1 class="head-text"><strong>SERVICING SYDNEY</strong></h1>
+				<p class="p1t"><i>“We are very pleased with your plumbers Tom and<br>
+					David and the repair they did to the sewer<br>
+					pipe inside a kitchen cupboard. It was a<br>
+					very difficult job to do. We were<br>
+					impressed with their promptness and<br>
+					professionalism.”</i>
+					<br><br>
+					-<strong class="redex">Roslun</strong>, Cammeray
+				</p>
+				<button class="btn btn-default btn-lg"><span class="glyphicon glyphicon-chevron-right"></span><strong id="call_us">CALL US - 1800 620 227</strong><span class="glyphicon glyphicon-chevron-left"></span></button>
+			</div>
+			<div class="col-xs-1 men">
+				<img src="img/panel_1/men.png">
+			</div>
+			<div class="col-xs-6" align="center">
+				<form class="cont_us form-horizontal" role="form">
+					<h2 class="h2_cont">CONTACT US</h2>
+					<p id="for_after">For after hours emergency bookings, please call on <span class="redex">1800 620 227</span></p>
+					  <div class="form-group">
+					    <div class="col-sm-offset-1 col-sm-10">
+					      <input type="name" class="form-control" id="inputEmail3" placeholder="Name">
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <div class="col-sm-offset-1 col-sm-10">
+					      <input type="phone" class="form-control" id="inputPassword3" placeholder="Phone">
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <div class="col-sm-offset-1 col-sm-10">
+					      <textarea class="form-control ta" rows="8" placeholder="How can i help you?"></textarea>
+					      <button class="btn btn-default btn-ls"><strong>RESCUE ME</strong></button>
+					    </div>
+					  </div>
+					  <p id="form_foo">CLICK "BOOK MY JOB" TO SUBMIT YOUR FORM</p>
+				</form>
 			</div>
 		</div>
 		<div class="panel_2">
-			
-		</div>
-		<div class="panel_3">
-			<div class="row">
-				<div class="col-lg-12" align="center">
-					<img src="img/panel_3/logo.png" alt="logo3">
-					<h1>SAME DAY SERVICE GUARANTEE</h1>
-					<p class="panel_3_cont">Whether it is a blocked drains emergency or a tap leaking in the kitchen, we are the plumber in Sydney to<br> 
-					depend on – feel free to see our testimonials or look us up online. </p>
-					<button class="btn btn-default btn-lg"><span class="glyphicon glyphicon-chevron-right"></span><strong>CALL US - 1800 620 227</strong><span class="glyphicon glyphicon-chevron-left"></span></button>
+			<div class="row Frow2">
+				<div class="col-lg-offset-1 col-lg-1">
+					<img src="img/panel_2/logo.png" alt="logo_2">
 				</div>
+				<div class="col-lg-5">
+					<p class="panel_2T">THE <span class="redex">'PLUMBER TO THE RESCUE'</span> DIFFERENCE</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-offset-1 col-xs-6">
+					<ul>
+						<li>Save money with offers and discounts</li>
+						<li>Courteous, fully licensed, quafield and experienced plumbers</li>
+						<li>Tecnician traking fow better scheduling wo we're always on time</li>
+						<li>100% lifetime guaranted</li>
+						<li>Upfront, honest prices changed by the job, not by the hour</li>
+						<li>Same day rapairs to get your job done today</li>
+						<li>We're ready to rescue you 24/7, 365 days a year</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="panel_3 row">
+			<div class="col-lg-12" align="center">
+				<img src="img/panel_3/logo.png" alt="logo3">
+				<h1>SAME DAY SERVICE GUARANTEE</h1>
+				<p class="panel_3_cont">Whether it is a blocked drains emergency or a tap leaking in the kitchen, we are the plumber in Sydney to<br> 
+				depend on – feel free to see our testimonials or look us up online. </p>
+				<button class="btn btn-default btn-lg panel_3_5_btn"><span class="glyphicon glyphicon-chevron-right"></span><strong>CALL US - 1800 620 227</strong><span class="glyphicon glyphicon-chevron-left"></span></button>
 			</div>
 		</div>
 		<div class="panel_4">
@@ -60,64 +96,145 @@
 					PLUMBING NEEDS COVERED, INCLUDING:</strong>
 			</h1>
 			<div class="row">
-				<div class="col-lg-offset-2 col-lg-3">
+				<div class="col-xs-offset-2 col-xs-3">
 					<img src="img/panel_4/1.png" alt="1">
-					Bathroom plumbing
+					<strong>Bathroom plumbing</strong>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-xs-3">
 					<img src="img/panel_4/2.png" alt="2">
-					Leaking taps
+					<strong>Leaking taps</strong>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-xs-3">
 					<img src="img/panel_4/3.png" alt="3">
-					Water leaks
+					<strong>Water leaks</strong>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-offset-2 col-lg-3">
+				<div class="col-xs-offset-2 col-xs-3">
 					<img src="img/panel_4/4.png" alt="4">
-					Kitchen Plumbing
+					<strong>Kitchen Plumbing</strong>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-xs-3">
 					<img src="img/panel_4/5.png" alt="5">
-					Blocked rains
+					<strong>Blocked rains</strong>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-xs-3">
 					<img src="img/panel_4/6.png" alt="6">
-					Water presure
+					<strong>Water presure</strong>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-offset-2 col-lg-3">
+				<div class="col-xs-offset-2 col-xs-3">
 					<img src="img/panel_4/7.png" alt="7">
-					Leaking toilets
+					<strong>Leaking toilets</strong>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-xs-3">
 					<img src="img/panel_4/8.png" alt="8">
-					Hot water repairs
+					<strong>Hot water repairs</strong>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-xs-3">
 					<img src="img/panel_4/9.png" alt="9">
-					Gas plumbing
+					<strong>Gas plumbing</strong>
 				</div>
 			</div>
 			<h4 align="center">We can even fix up your plumbing if you or a loved one have already tried and failed to fix the problem, or ended up<br> 
 			making it worse! We repair what your husband fixed!<br><br>
 
-			So call the reliable, experienced plumbers Sydney siders trust– Plumber to the Rescue.</h4>
+			<strong>So call the reliable, experienced plumbers Sydney siders trust– Plumber to the Rescue.</strong></h4>
 		</div>
-		<div class="panel_3">	
-			<div class="row">
-				<div class="col-lg-12" align="center">
-					<img src="img/panel_4/logo.png" alt="logo5">
-					<h1>ON TIME GUARANTEE</h1>
-					<p class="panel_3_cont">Whether it is a blocked drains emergency or a tap leaking in the kitchen, we are the plumber in Sydney to<br> 
-					depend on – feel free to see our testimonials or look us up online. </p>
-					<button class="btn btn-default btn-lg"><span class="glyphicon glyphicon-chevron-right"></span><strong>CALL US - 1800 620 227</strong><span class="glyphicon glyphicon-chevron-left"></span></button>
+		<div class="panel_3 row"><!-- panel_3=panel_5 -->
+			<div class="col-lg-12" align="center">
+				<img src="img/panel_3/logo.png" alt="logo3">
+				<h1>ON TIME GUARANTEE</h1>
+				<p class="panel_3_cont">Whether it is a blocked drains emergency or a tap leaking in the kitchen, we are the plumber in Sydney to<br> 
+				depend on – feel free to see our testimonials or look us up online. </p>
+				<button class="btn btn-default btn-lg panel_3_5_btn"><span class="glyphicon glyphicon-chevron-right"></span><strong>CALL US - 1800 620 227</strong><span class="glyphicon glyphicon-chevron-left"></span></button>
+			</div>
+		</div>
+		<div class="panel_6">
+			<div class="col-lg-12" align="center">
+				<img src="img/testimonials/logo.png" alt="test_logo">
+			</div>
+			<div class="row founders">
+				<div class="col-lg-offset-1 col-lg-3">
+					<div class="sheldon">
+						<p  align="center">I am really happy with your<br>
+							professionalism, standard of<br> 
+							service and workmanship.<br> 
+							It was outstanding.<br> 
+							Next time I need a plumber I<br>
+							will definitely be giving you a<br>
+							call.<br>
+							<br>
+							<strong class="redex">- Sheldon</strong>, <i>Darling Point</i><br>
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4" align="center">
+					<div class="kevin">
+						<p  align="center">A big thank you to your<br>
+							plumber, Jason, for the<br> 
+							excellent job on my bathroom<br> 
+							renovation.<br><br>
+							I am so happy with the job<br>
+							and service. <br>
+							<br>
+							<strong class="redex">- Kevin</strong>, <i>Haberfield</i><br>
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="peter">
+						<p  align="center">I am very impressed with<br>
+							your plumbers, they are very<br> 
+							professional and clearly expe-<br> 
+							rienced at tracing and fixing<br> 
+							water leaks that stump other<br>
+							plumbers.<br>
+							<br>
+							<strong class="redex">- Peter</strong>, <i>Building Manager, North Sydney</i><br>
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+		<div class="row footer">
+			<div class="col-xs-12 fLogo" align="center">
+				<img src="img/footer/logo.png">
+			</div>
+			<div class="col-xs-12" align="center">
+				<strong style="color: #6e6e6e;">Get in touch with us!</strong>
+			</div>
+			<div class="col-xs-12 Soc" align="center">
+				<a href="#"><img src="img/footer/facebook.png" alt="facebook"></a>
+				<a href="#"><img src="img/footer/twiter.png" alt="twiter"></a>
+			</div>
+		</div>
+			<div class="greenLine row">
+				<div class="col-xs-offset-1 col-xs-3">				
+					<p>2 377 Kent St Sydney New South<br>
+						Wales 2000 Australia</p>
+				</div>
+				<div class="col-xs-4" align="center">
+					<p>© 2017 plumber to the rescue</p>
+				</div>
+				<div class="col-xs-offset-1 col-xs-3">
+					<p>1800 620 227<br>
+					jobs@plumbertotherescue.com.au</p>
+				</div>
+			</div>
+	</div>	
+
+
+
+
+
+
+
+
+
+
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </body>

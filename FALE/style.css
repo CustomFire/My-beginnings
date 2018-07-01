@@ -43,6 +43,9 @@
 .lato-regular {
 	font-family: lato-regular;
 }
+.lato-bold {
+	font-family: lato-bold;
+}
 h1, h2, h3, h4, h5, h6, p {
 margin: 0;
 padding: 0;
@@ -251,8 +254,7 @@ input {
 	background-image: url(../BootstrapProj/img/panel_2/fon.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-	 padding-bottom: 97px; 
-	/* padding-bottom: 127px; */
+	padding-bottom: 97px; 
 }
 .plumber_logo {
 	display: block;
@@ -262,7 +264,6 @@ input {
 .plumber_title {
 	display: block;
 	margin-bottom: 40px;
-	/* float: left; */
 }
 .plumber_title_content {
 	font-family: raleway-bold;
@@ -271,7 +272,7 @@ input {
 	line-height: 41px; 
 }
 .list {
-	/* margin-top: 30px; */
+
 }
 ul {
 	font-size: 20px;
@@ -294,13 +295,21 @@ li::before {
 	padding-top: 95px;
 	padding-bottom: 100px;
 }
-.including_title {
-	display:inline;
+.including_title_mobile {
+	display:none;
 	text-align: center;
 	font-family: raleway-bold;
 	font-size: 40px;
 }
+.including_title {
+	text-align: center;
+	font-family: raleway-bold;
+	font-size: 40px;
+	padding-bottom: 60px;
+}
 .including_grid {
+	position: relative;
+	left: 100px;
 }
 .element {
 	display: inline-block;
@@ -316,6 +325,13 @@ li::before {
 	font-family: lato-bold;
 	font-size: 20px;
 	display: inline;
+}
+.including_foot {
+	font-family: lato-regular;
+	font-size: 20px;
+}
+.including_foot p {
+	margin-bottom: 20px;
 }
 /*------------------I-N-C-L-U-D-I-N-G--G-R-I-D--------------------------------------------*/
 /*------------------T-I-M-E--A-N-D--D-A-Y--G-U-A-R-A-N-T-Y--------------------------------*/
@@ -401,5 +417,11 @@ li::before {
 	font-family: lato-regular;
 	font-size: 13px;
 	padding-bottom: 27px;
+}
+.footer-nubmer_mobile {
+	display: none;
+}
+.footer-copyrig_mobile {
+	display: none;
 }
 /*----------------------------------------------------------------------------------------*/

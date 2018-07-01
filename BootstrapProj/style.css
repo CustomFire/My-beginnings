@@ -43,6 +43,9 @@
 .lato-regular {
 	font-family: lato-regular;
 }
+.lato-bold {
+	font-family: lato-bold;
+}
 h1, h2, h3, h4, h5, h6, p {
 margin: 0;
 padding: 0;
@@ -73,28 +76,34 @@ button {
 ul {
 	margin-bottom: 0;
 }
-.head-logo div>img {
-	/* width: 100%;
-	height: auto; */
+.header_items {
+	position: relative;
+}
+.head-logo {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: auto;
+	width: 100%;
 }
 .header-arrow {
-	position: relative;
+	position: absolute;
 	z-index: 1;
 	top: 49px;
+	left: 560px;
 }
 /*red_buttonred_buttonred_buttonred_buttonred_buttonred_buttonred_buttonred_buttonred_buttonred_buttonred_button*/
 .red_button {
 	display: block;
-	width: 400px;
-	height: 63px;
 	border:3px solid #db2e1a; 
 	color:#fff;
  	border-radius:30px; 
 	background: -webkit-gradient(linear, 0 0, 0 100%, from(#f74a22), to(#db2e1a));
-	padding-top: 9px;
-	padding-bottom: 9px;
-	padding-left: 26px;
-	padding-right: 26px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 16px;
+	padding-right: 16px;
+	vertical-align: middle;
 }
 .red_button_content {
 	font-size: 26px;
@@ -124,11 +133,13 @@ ul {
 /*------------------S-E-R-V-I-C-I-N-G-------S-Y-D-N-E-Y-----------------------------------*/
 .servicing_sydney {
 	position: relative;
+	margin-left: -11px;
+    margin-right: -11px;
 }
 .main_info {
 	float: left;
 	display: inline-block;
-	width: 45%;
+	width: 40%;
 }
 .servicing_sydney_title {
 	display: inline-block;
@@ -148,6 +159,17 @@ ul {
 	padding-right: 18px;
 	padding-left: 25px;
 	margin-bottom: 22px;
+}
+.we_are_mobile {
+	display: none;
+	font-size: 20px;
+	background: #ebebeb;
+	border:1px solid #e1e1e1;
+	border-radius: 9px;
+	padding-top: 15px;
+	padding-right: 18px;
+	padding-left: 25px;
+	margin-bottom: 16px;
 }
 .text_we_are {
 	font-family: lato-semibolditalic;
@@ -171,6 +193,9 @@ ul {
  	top: 31px;
 	left: 387px;
 	z-index: 1; 
+}
+.blue_men_mobile {
+	display: none;
 }
 .form-horizontal {
 	top: -63px;
@@ -231,8 +256,7 @@ input {
 	background-image: url(../BootstrapProj/img/panel_2/fon.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-	 padding-bottom: 97px; 
-	/* padding-bottom: 127px; */
+	padding-bottom: 97px; 
 }
 .plumber_logo {
 	display: block;
@@ -242,7 +266,6 @@ input {
 .plumber_title {
 	display: block;
 	margin-bottom: 40px;
-	/* float: left; */
 }
 .plumber_title_content {
 	font-family: raleway-bold;
@@ -251,7 +274,7 @@ input {
 	line-height: 41px; 
 }
 .list {
-	/* margin-top: 30px; */
+
 }
 ul {
 	font-size: 20px;
@@ -274,47 +297,43 @@ li::before {
 	padding-top: 95px;
 	padding-bottom: 100px;
 }
-.including_title {
+.including_title_mobile {
+	display:none;
+	text-align: center;
 	font-family: raleway-bold;
 	font-size: 40px;
-	margin-bottom: 58px;
 }
-.including_grid .row > div{
+.including_title {
+	text-align: center;
+	font-family: raleway-bold;
+	font-size: 40px;
+	padding-bottom: 60px;
+}
+.including_grid {
 	position: relative;
-	font-family: lato-bold;
-	font-size: 20px;
+	left: 100px;
+}
+.element {
+	display: inline-block;
+	float: left;
+	width: 33%;
 	margin-bottom: 50px;
 }
-.including_grid .row > div img{
-	float: left;
+.element_logo {
+	display: inline;
+	margin-right: 15px;
 }
-.including_grid .row > div p{
-	position: absolute;
-	top: 27%;
-	left:100px;
-	margin-button: auto; 
-	float: left;
-}
-.including_foot {
-/* 	margin-top: 58px; */
-}
-.including_foot p {
-	font-family:lato-regular;
-	font-size: 20px;
-	margin-bottom: 30px;
-	margin-top: 
-}
-.including_foot span {
-	padding-top: 30px;
+.element_info {
 	font-family: lato-bold;
 	font-size: 20px;
+	display: inline;
 }
-.plumbings {
-	display: inline-block;
-	float:left;
+.including_foot {
+	font-family: lato-regular;
+	font-size: 20px;
 }
-.plumb {
-	vertical-align: middle;
+.including_foot p {
+	margin-bottom: 20px;
 }
 /*------------------I-N-C-L-U-D-I-N-G--G-R-I-D--------------------------------------------*/
 /*------------------T-I-M-E--A-N-D--D-A-Y--G-U-A-R-A-N-T-Y--------------------------------*/
@@ -401,7 +420,10 @@ li::before {
 	font-size: 13px;
 	padding-bottom: 27px;
 }
-/*----------------------------------------------------------------------------------------*/
-@media screen {
-	
+.footer-nubmer_mobile {
+	display: none;
 }
+.footer-copyrig_mobile {
+	display: none;
+}
+/*----------------------------------------------------------------------------------------*/

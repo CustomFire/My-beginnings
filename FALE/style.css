@@ -80,6 +80,8 @@ ul {
 	position: absolute;
 	top: 0px;
 	left: 0px;
+	height: auto;
+	width: 100%;
 }
 .header-arrow {
 	position: absolute;
@@ -90,15 +92,15 @@ ul {
 /*red_buttonred_buttonred_buttonred_buttonred_buttonred_buttonred_buttonred_buttonred_buttonred_buttonred_button*/
 .red_button {
 	display: block;
-	height: 63px;
 	border:3px solid #db2e1a; 
 	color:#fff;
  	border-radius:30px; 
 	background: -webkit-gradient(linear, 0 0, 0 100%, from(#f74a22), to(#db2e1a));
-	padding-top: 9px;
-	padding-bottom: 9px;
-	padding-left: 26px;
-	padding-right: 26px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 16px;
+	padding-right: 16px;
+	vertical-align: middle;
 }
 .red_button_content {
 	font-size: 26px;
@@ -132,7 +134,7 @@ ul {
 .main_info {
 	float: left;
 	display: inline-block;
-	width: 45%;
+	width: 40%;
 }
 .servicing_sydney_title {
 	display: inline-block;
@@ -152,6 +154,17 @@ ul {
 	padding-right: 18px;
 	padding-left: 25px;
 	margin-bottom: 22px;
+}
+.we_are_mobile {
+	display: none;
+	font-size: 20px;
+	background: #ebebeb;
+	border:1px solid #e1e1e1;
+	border-radius: 9px;
+	padding-top: 15px;
+	padding-right: 18px;
+	padding-left: 25px;
+	margin-bottom: 16px;
 }
 .text_we_are {
 	font-family: lato-semibolditalic;
@@ -175,6 +188,9 @@ ul {
  	top: 31px;
 	left: 387px;
 	z-index: 1; 
+}
+.blue_men_mobile {
+	display: none;
 }
 .form-horizontal {
 	top: -63px;
@@ -279,46 +295,27 @@ li::before {
 	padding-bottom: 100px;
 }
 .including_title {
+	display:inline;
+	text-align: center;
 	font-family: raleway-bold;
 	font-size: 40px;
-	margin-bottom: 58px;
 }
-.including_grid .row > div{
-	position: relative;
-	font-family: lato-bold;
-	font-size: 20px;
+.including_grid {
+}
+.element {
+	display: inline-block;
+	float: left;
+	width: 33%;
 	margin-bottom: 50px;
 }
-.including_grid .row > div img{
-	float: left;
+.element_logo {
+	display: inline;
+	margin-right: 15px;
 }
-.including_grid .row > div p{
-	position: absolute;
-	top: 27%;
-	left:100px;
-	margin-button: auto; 
-	float: left;
-}
-.including_foot {
-/* 	margin-top: 58px; */
-}
-.including_foot p {
-	font-family:lato-regular;
-	font-size: 20px;
-	margin-bottom: 30px;
-	margin-top: 
-}
-.including_foot span {
-	padding-top: 30px;
+.element_info {
 	font-family: lato-bold;
 	font-size: 20px;
-}
-.plumbings {
-	display: inline-block;
-	float:left;
-}
-.plumb {
-	vertical-align: middle;
+	display: inline;
 }
 /*------------------I-N-C-L-U-D-I-N-G--G-R-I-D--------------------------------------------*/
 /*------------------T-I-M-E--A-N-D--D-A-Y--G-U-A-R-A-N-T-Y--------------------------------*/
@@ -406,6 +403,3 @@ li::before {
 	padding-bottom: 27px;
 }
 /*----------------------------------------------------------------------------------------*/
-@media screen {
-	
-}

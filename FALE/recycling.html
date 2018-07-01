@@ -7,9 +7,10 @@
 	<link rel="stylesheet" type="text/css" href="../BootstrapProj/css/bootstrap.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="mobile.css">
 </head>
 <body>
-	<!-- main_text -->
+
 <header class="header">
 	<div class="container">
 		<div class="header_items">
@@ -29,7 +30,7 @@
 			<div class="servicing_sydney">
 				<div class="col-md-7">
 					<div class="servicing_sydney_title">
-						<h1>SERVICING SYDNEY</h1>
+						<h1>SERVICING <span class="sydney">SYDNEY</span></h1>
 					</div>
 					<div class="we_are">
 						<div class="text_we_are">
@@ -39,6 +40,15 @@
 								very difficult job to do. We were<br>
 								impressed with their promptness and<br>
 								professionalism.”
+							</p>
+						</div>
+						<div class="roslyn_cammeray">
+							<span class="roslyn red">-Roslyn</span>,<span class="cammeray"> Cammeray</span>
+						</div>
+					</div>
+					<div class="we_are_mobile">
+						<div class="text_we_are">
+							<p>“We are very pleased with your plumbers Tom and David and the repair they did to the sewer pipe inside a kitchen cupboard. It was a very difficult job to do. We were impressed with their promptness and professionalism.”
 							</p>
 						</div>
 						<div class="roslyn_cammeray">
@@ -57,6 +67,9 @@
 				</div>
 				<div class="blue_men">
 					<img src="../BootstrapProj/img/panel_1/men.png">
+				</div>
+				<div class="blue_men_mobile">
+					<img src="../BootstrapProj/img/panel_1/men_mobile.png">
 				</div>
 				<form class="form-horizontal">
 					<div class="contact">
@@ -119,57 +132,90 @@
 	</div>
 	<div class="including">
 		<div class="container">
-			<div class="including_title" align="center">
+			<div class="including_title">
 				<h1 >
-					OUR SUPER PLUMBERS HAVE ALL OF YOUR<br> PLUMBING NEEDS COVERED, INCLUDING:
+					OUR SUPER PLUMBERS HAVE ALL OF YOUR<br>
+					PLUMBING NEEDS COVERED, INCLUDING:
 				</h1>
 			</div>
 			<div class="including_grid">
-				<div class="row">
-					<div class="col-md-offset-1 col-md-4">
-						<img src="../BootstrapProj/img/panel_4/1.png" alt="1">
-						<p>Bathroom plumbing</p>
+				<div class="element">
+					<div class="element_logo">
+						<img src="../BootstrapProj/img/panel_4/1.png">
 					</div>
-					<div class="col-md-3">
-						<img src="../BootstrapProj/img/panel_4/2.png" alt="2">
-						<p>Leaking taps</p>
+					<div class="element_info">
+						<span>Bathroom plumbing</span>
 					</div>
-					<div class="col-md-4">
-						<img src="../BootstrapProj/img/panel_4/3.png" alt="3">
-						<p>Water leaks</p>
+				</div>
+				<div class="element">
+					<div class="element_logo">
+						<img src="../BootstrapProj/img/panel_4/4.png">
 					</div>
-					<div class="col-md-offset-1 col-md-4">
-						<img src="../BootstrapProj/img/panel_4/4.png" alt="4">
-						<p>Kitchen Plumbing</p>
+					<div class="element_info">
+						<span>Kitchen Plumbing</span>
 					</div>
-					<div class="col-md-3">
-						<img src="../BootstrapProj/img/panel_4/5.png" alt="5">
-						<p>Blocked rains</p>
+				</div>
+				<div class="element">
+					<div class="element_logo">
+						<img src="../BootstrapProj/img/panel_4/7.png">
 					</div>
-					<div class="col-md-4">
-						<img src="../BootstrapProj/img/panel_4/6.png" alt="6">
-						<p>Water presure</p>
+					<div class="element_info">
+						<span>Leaking toilets</span>
 					</div>
-					<div class="col-md-offset-1 col-md-4">
-						<img src="../BootstrapProj/img/panel_4/7.png" alt="7">
-						<p>Leaking toilets</p>
+				</div>
+				<div class="element">
+					<div class="element_logo">
+						<img src="../BootstrapProj/img/panel_4/2.png">
 					</div>
-					<div class="col-md-3">
-						<img src="../BootstrapProj/img/panel_4/8.png" alt="8">
-						<p>Hot water repairs</p>
+					<div class="element_info">
+						<span>Leaking taps</span>
 					</div>
-					<div class="col-md-4">
-						<img src="../BootstrapProj/img/panel_4/9.png" alt="9">
-						<p>Gas plumbing</p>
+				</div>
+				<div class="element">
+					<div class="element_logo">
+						<img src="../BootstrapProj/img/panel_4/5.png">
+					</div>
+					<div class="element_info">
+						<span>Blocked drains</span>
+					</div>
+				</div>
+				<div class="element">
+					<div class="element_logo">
+						<img src="../BootstrapProj/img/panel_4/8.png">
+					</div>
+					<div class="element_info">
+						<span>Hot water repairs</span>
+					</div>
+				</div>
+				<div class="element">
+					<div class="element_logo">
+						<img src="../BootstrapProj/img/panel_4/3.png">
+					</div>
+					<div class="element_info">
+						<span>Water leaks</span>
+					</div>
+				</div>
+				<div class="element">
+					<div class="element_logo">
+						<img src="../BootstrapProj/img/panel_4/6.png">
+					</div>
+					<div class="element_info">
+						<span>Water pressure</span>
+					</div>
+				</div>
+				<div class="element">
+					<div class="element_logo">
+						<img src="../BootstrapProj/img/panel_4/9.png">
+					</div>
+					<div class="element_info">
+						<span>Gas plumbing</span>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-12">
-				<div class="including_foot" align="center">
-					<p>We can even fix up your plumbing if you or a loved one have already tried and failed to fix the problem, or ended up making it worse! We repair what your husband fixed!</p>
-					<span class="lato-bold">So call the reliable, experienced plumbers Sydney siders trust– Plumber to the Rescue.</span>
-				</div>
-			</div>
+			<!-- <div class="including_foot" align="center">
+				<p>We can even fix up your plumbing if you or a loved one have already tried and failed to fix the problem, or ended up making it worse! We repair what your husband fixed!</p>
+				<span class="lato-bold">So call the reliable, experienced plumbers Sydney siders trust– Plumber to the Rescue.</span>
+			</div> -->
 		</div>
 	</div>
 	<div class="time">

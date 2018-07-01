@@ -1,0 +1,64 @@
+@media (max-width: 480px) {
+	.red_button {
+		display: block;
+		border:3px solid #db2e1a; 
+		color:#fff;
+	 	border-radius:30px; 
+		background: -webkit-gradient(linear, 0 0, 0 100%, from(#f74a22), to(#db2e1a));
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 16px;
+		padding-right: 16px;
+		width: 100%;
+	}
+	.red_button_content {
+		font-size: 22.29px;
+		font-family: arial-bold;
+		text-shadow:0px 1px 2px black; 
+	}
+	.header-logo img {
+		max-width: 100%;
+    	height: auto;
+	}
+	.header-arrow {
+		display: none;
+	}
+	.servicing_sydney_title {
+		color: #013951;
+		font-size: 44px;
+		padding-top: 43px;
+		padding-bottom: 76px;
+	}
+	.servicing_sydney_title h1 {
+	    line-height: 0.9;
+	}
+	.sydney {
+		color: #db2f1a;
+	}
+	.we_are_mobile {
+		display: inline-block;
+		font-size: 15.5px;
+	}
+	.we_are {
+		display: none;
+	}
+	.blue_men {
+		display: none;
+	}
+	.blue_men_mobile {
+		display: block;
+		position: absolute;
+		top:30px;
+		left: 169px;
+		z-index: -1;
+	}
+	.form-horizontal {
+		position: initial;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 53px;
+	}
+	.button_first {
+		margin-bottom: 24px;
+	}
+}

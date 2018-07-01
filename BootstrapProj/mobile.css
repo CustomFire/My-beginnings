@@ -97,7 +97,11 @@
 		display: none;
 	}
 	.including_title_mobile {
-		display: inline;
+		display: block;
+		text-align: center;
+		font-family: raleway-bold;
+		font-size: 40px;
+		padding-bottom: 25px;
 	}
 	.including_grid {
 		display: inline-table;

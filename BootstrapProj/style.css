@@ -299,9 +299,6 @@ li::before {
 }
 .including_title_mobile {
 	display:none;
-	text-align: center;
-	font-family: raleway-bold;
-	font-size: 40px;
 }
 .including_title {
 	text-align: center;
